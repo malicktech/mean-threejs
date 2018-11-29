@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from '../auth/auth-guard.service';
 import { HomeComponent } from '../home/home.component';
-import { SceneComponent } from '../scene/scene.component';
 
 const routes: Routes = [{
   path: '',
@@ -13,10 +12,6 @@ const routes: Routes = [{
 }, {
   path: 'admin',
   loadChildren: 'app/admin/admin.module#AdminModule'
-},
-{
-  path: 'scene',
-  component: SceneComponent
 }];
 
 @NgModule({
@@ -26,4 +21,4 @@ const routes: Routes = [{
   declarations: []
 })
 
-export class AppRoutingModule { }
+export class AppRoutingModule {}

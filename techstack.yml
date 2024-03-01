@@ -1,0 +1,927 @@
+repo_name: malicktech/mean-threejs
+report_id: 9c9026f10ada243a8ba6e83e2757ca15
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-01T22:46:23+00:00'
+requested_by: louisdiatta
+provider: github
+branch: master
+detected_tools_count: 72
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/malicktech/mean-threejs
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/malicktech/mean-threejs
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/malicktech/mean-threejs
+  detection_source: Repo Metadata
+- name: Angular
+  description: A platform for building mobile and desktop web applications
+  website_url: https://angular.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-05-21 08:48:24.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-06-20 13:01:34.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Angular CLI
+  last_updated_on: 2018-05-02 11:21:13.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-06-20 13:01:34.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-13 08:27:10.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/malicktech/mean-threejs
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-06-20 13:01:34.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/malicktech/mean-threejs
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Angular CLI
+  last_updated_on: 2018-05-02 11:21:13.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-03 15:57:04.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: feenr
+  last_updated_on: 2018-10-10 03:21:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Angular CLI
+  last_updated_on: 2018-05-02 11:21:13.000000000 Z
+- name: MeandR
+  description: iPhone app that encourages you to keep fit and get outside more by
+    challenging you to walk to a target in time
+  website_url: https://www.goodbinary.com/meandr
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Healthcare
+  image_url: https://img.stackshare.io/service/12815/IntroImage.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-06-20 13:01:34.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-06-20 13:01:34.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: three.js
+  description: A JavaScript 3D library
+  website_url: https://threejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Game Development
+  image_url: https://img.stackshare.io/service/5883/preview.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular-devkit/build-angular"
+  description: Angular Webpack Build Facade
+  package_url: https://www.npmjs.com/@angular-devkit/build-angular
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/animations"
+  description: Angular - animations integration with web-animations
+  package_url: https://www.npmjs.com/@angular/animations
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/cdk"
+  description: Angular Material Component Development Kit
+  package_url: https://www.npmjs.com/@angular/cdk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16358/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/cli"
+  description: CLI tool for Angular
+  package_url: https://www.npmjs.com/@angular/cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/common"
+  description: Angular - commonly needed directives and services
+  package_url: https://www.npmjs.com/@angular/common
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/compiler"
+  description: Angular - the compiler library
+  package_url: https://www.npmjs.com/@angular/compiler
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/compiler-cli"
+  description: Angular - the compiler CLI for Node.js
+  package_url: https://www.npmjs.com/@angular/compiler-cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/flex-layout"
+  description: Angular Flex-Layout
+  package_url: https://www.npmjs.com/@angular/flex-layout
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17462/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/forms"
+  description: Angular - directives and services for creating forms
+  package_url: https://www.npmjs.com/@angular/forms
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/http"
+  description: Angular - the http service
+  package_url: https://www.npmjs.com/@angular/http
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15977/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/language-service"
+  description: Angular - language services
+  package_url: https://www.npmjs.com/@angular/language-service
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16047/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/material"
+  description: Angular Material
+  package_url: https://www.npmjs.com/@angular/material
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16444/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/platform-browser"
+  description: Angular - library for using Angular in a web browser
+  package_url: https://www.npmjs.com/@angular/platform-browser
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/platform-browser-dynamic"
+  description: Angular - library for using Angular in a web browser with JIT compilation
+  package_url: https://www.npmjs.com/@angular/platform-browser-dynamic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@angular/router"
+  description: Angular - the routing library
+  package_url: https://www.npmjs.com/@angular/router
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@types/jasmine"
+  description: TypeScript definitions for Jasmine
+  package_url: https://www.npmjs.com/@types/jasmine
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@types/jasminewd2"
+  description: TypeScript definitions for jasminewd2
+  package_url: https://www.npmjs.com/@types/jasminewd2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16060/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-13 13:57:00.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-10 12:22:31.000000000 Z
+- name: codelyzer
+  description: Linting for Angular applications
+  package_url: https://www.npmjs.com/codelyzer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15956/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: compression
+  description: Node.js compression middleware
+  package_url: https://www.npmjs.com/compression
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: feenr
+  last_updated_on: 2018-10-10 03:21:46.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-10 12:22:31.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-10 12:22:31.000000000 Z
+- name: events
+  description: Node's event emitter for all engines
+  package_url: https://www.npmjs.com/events
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16435/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-20 10:32:47.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-05-21 08:48:24.000000000 Z
+- name: express-jwt
+  description: JWT authentication middleware
+  package_url: https://www.npmjs.com/express-jwt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17884/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-05-21 08:48:24.000000000 Z
+- name: formidable
+  description: A node.js module for parsing form data
+  package_url: https://www.npmjs.com/formidable
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16761/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-10 12:22:31.000000000 Z
+- name: http-errors
+  description: Create HTTP error objects
+  package_url: https://www.npmjs.com/http-errors
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16925/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-06 12:36:30.000000000 Z
+- name: jasmine-spec-reporter
+  description: Spec reporter for jasmine behavior-driven development framework
+  package_url: https://www.npmjs.com/jasmine-spec-reporter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16066/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: joi
+  description: Object schema validation
+  package_url: https://www.npmjs.com/joi
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Angular CLI
+  last_updated_on: 2018-05-02 11:21:13.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-10 12:22:31.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: karma-coverage-istanbul-reporter
+  description: A karma reporter that uses the latest istanbul 1.x APIs
+  package_url: https://www.npmjs.com/karma-coverage-istanbul-reporter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15998/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: karma-jasmine-html-reporter
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-jasmine-html-reporter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: method-override
+  description: Override HTTP verbs
+  package_url: https://www.npmjs.com/method-override
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16758/default_92482df1bcbe0d3a46cc1d597c9687a42da1cd04.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Avraham Ostreicher
+  last_updated_on: 2018-05-10 12:22:31.000000000 Z
+- name: passport-jwt
+  description: Passport authentication strategy using JSON Web Tokens
+  package_url: https://www.npmjs.com/passport-jwt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18238/default_d0bdfc944c04fa7e84198f9a2784cc716a3d91a3.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: passport-local
+  description: Local username and password authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-local
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16747/default_adce7cef6d131ffc31466624541462e4db9534d4.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
+- name: rxjs-compat
+  description: '&lt;img src="doc/asset/Rx_Logo_S.png" alt="RxJS Logo" width="86" height="86"&gt;
+    RxJS: Reactive Extensions For JavaScript =================='
+  package_url: https://www.npmjs.com/rxjs-compat
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16746/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: three
+  description: JavaScript 3D library
+  package_url: https://www.npmjs.com/three
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Louis
+  last_updated_on: 2018-11-29 12:56:49.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: feenr
+  last_updated_on: 2018-10-10 03:21:46.000000000 Z
+- name: zone.js
+  description: Zones for JavaScript
+  package_url: https://www.npmjs.com/zone.js
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/malicktech/mean-threejs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Orit Persik
+  last_updated_on: 2018-06-05 08:23:24.000000000 Z
